@@ -1,0 +1,32 @@
+[
+  {
+    "operation": "Input Handling",
+    "start_time": 1742081780.7583547,
+    "end_time": 1742081784.904992,
+    "duration": 4.146637439727783
+  },
+  {
+    "operation": "Story Generation",
+    "start_time": 1742081784.904992,
+    "end_time": 1742081800.0661416,
+    "duration": 15.161149501800537
+  },
+  {
+    "operation": "Content Filtering",
+    "start_time": 1742081800.0661416,
+    "end_time": 1742081803.7348552,
+    "duration": 3.6687135696411133
+  },
+  {
+    "operation": "File Management",
+    "start_time": 1742081803.7348552,
+    "end_time": 1742081803.7890458,
+    "duration": 0.054190635681152344
+  },
+  {
+    "operation": "Image Prompt Creation",
+    "start_time": 1742081803.7900462,
+    "end_time": null,
+    "duration": null
+  }
+]

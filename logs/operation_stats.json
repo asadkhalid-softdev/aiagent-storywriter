@@ -1,0 +1,30 @@
+{
+  "Input Handling": {
+    "count": 1,
+    "total_time": 4.146637439727783,
+    "min_time": 4.146637439727783,
+    "max_time": 4.146637439727783,
+    "avg_time": 4.146637439727783
+  },
+  "Story Generation": {
+    "count": 1,
+    "total_time": 15.161149501800537,
+    "min_time": 15.161149501800537,
+    "max_time": 15.161149501800537,
+    "avg_time": 15.161149501800537
+  },
+  "Content Filtering": {
+    "count": 1,
+    "total_time": 3.6687135696411133,
+    "min_time": 3.6687135696411133,
+    "max_time": 3.6687135696411133,
+    "avg_time": 3.6687135696411133
+  },
+  "File Management": {
+    "count": 1,
+    "total_time": 0.054190635681152344,
+    "min_time": 0.054190635681152344,
+    "max_time": 0.054190635681152344,
+    "avg_time": 0.054190635681152344
+  }
+}
