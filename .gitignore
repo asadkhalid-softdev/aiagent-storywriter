@@ -30,3 +30,6 @@ build/
 
 # Local configuration
 config/local_config.py
+
+# Others
+structure.md
