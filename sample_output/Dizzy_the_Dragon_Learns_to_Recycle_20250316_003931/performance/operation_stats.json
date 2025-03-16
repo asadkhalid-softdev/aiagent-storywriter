@@ -1,0 +1,58 @@
+{
+  "Input Handling": {
+    "count": 1,
+    "total_time": 6.783397912979126,
+    "min_time": 6.783397912979126,
+    "max_time": 6.783397912979126,
+    "avg_time": 6.783397912979126
+  },
+  "Story Generation": {
+    "count": 1,
+    "total_time": 20.802329540252686,
+    "min_time": 20.802329540252686,
+    "max_time": 20.802329540252686,
+    "avg_time": 20.802329540252686
+  },
+  "Content Filtering": {
+    "count": 1,
+    "total_time": 3.3272032737731934,
+    "min_time": 3.3272032737731934,
+    "max_time": 3.3272032737731934,
+    "avg_time": 3.3272032737731934
+  },
+  "File Management": {
+    "count": 1,
+    "total_time": 0.05381202697753906,
+    "min_time": 0.05381202697753906,
+    "max_time": 0.05381202697753906,
+    "avg_time": 0.05381202697753906
+  },
+  "Image Prompt Creation": {
+    "count": 1,
+    "total_time": 7.794408082962036,
+    "min_time": 7.794408082962036,
+    "max_time": 7.794408082962036,
+    "avg_time": 7.794408082962036
+  },
+  "Image Prompt Filtering": {
+    "count": 1,
+    "total_time": 0.0,
+    "min_time": 0.0,
+    "max_time": 0,
+    "avg_time": 0.0
+  },
+  "Image Generation": {
+    "count": 1,
+    "total_time": 77.55633211135864,
+    "min_time": 77.55633211135864,
+    "max_time": 77.55633211135864,
+    "avg_time": 77.55633211135864
+  },
+  "Markdown Update": {
+    "count": 1,
+    "total_time": 0.011715888977050781,
+    "min_time": 0.011715888977050781,
+    "max_time": 0.011715888977050781,
+    "avg_time": 0.011715888977050781
+  }
+}

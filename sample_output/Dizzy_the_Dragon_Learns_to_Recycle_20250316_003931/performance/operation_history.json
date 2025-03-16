@@ -1,0 +1,50 @@
+[
+  {
+    "operation": "Input Handling",
+    "start_time": 1742081940.2394536,
+    "end_time": 1742081947.0228515,
+    "duration": 6.783397912979126
+  },
+  {
+    "operation": "Story Generation",
+    "start_time": 1742081947.0385013,
+    "end_time": 1742081967.8408308,
+    "duration": 20.802329540252686
+  },
+  {
+    "operation": "Content Filtering",
+    "start_time": 1742081967.8408308,
+    "end_time": 1742081971.168034,
+    "duration": 3.3272032737731934
+  },
+  {
+    "operation": "File Management",
+    "start_time": 1742081971.168034,
+    "end_time": 1742081971.221846,
+    "duration": 0.05381202697753906
+  },
+  {
+    "operation": "Image Prompt Creation",
+    "start_time": 1742081971.221846,
+    "end_time": 1742081979.0162542,
+    "duration": 7.794408082962036
+  },
+  {
+    "operation": "Image Prompt Filtering",
+    "start_time": 1742081979.0162542,
+    "end_time": 1742081979.0162542,
+    "duration": 0.0
+  },
+  {
+    "operation": "Image Generation",
+    "start_time": 1742081979.0162542,
+    "end_time": 1742082056.5725863,
+    "duration": 77.55633211135864
+  },
+  {
+    "operation": "Markdown Update",
+    "start_time": 1742082056.5725863,
+    "end_time": 1742082056.5843022,
+    "duration": 0.011715888977050781
+  }
+]
