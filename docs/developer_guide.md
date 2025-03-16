@@ -1,7 +1,24 @@
+# Developer Guide
+
+This guide provides detailed information for developers who want to understand, modify, or extend the AI Children's Story Generator.
+
+## Architecture Overview
+
+The application follows a modular architecture where each component has a specific responsibility:
+
+1. **Input Handler**: Collects and validates user input
+2. **Story Generator**: Generates stories using OpenAI's GPT models
+3. **Image Prompt Creator**: Extracts key scenes from stories for illustration
+4. **Image Generator**: Creates images using OpenAI's DALL-E
+5. **File Manager**: Handles file operations and organizes output
+6. **Content Filter**: Ensures content is appropriate for children
+7. **Performance Monitor**: Tracks and optimizes application performance
+8. **Prompt Optimizer**: Improves prompts for better quality output
+
+### Component Interaction Flow
+
 User Input → Input Handler → Story Generator → Story Text → Image Prompt Creator →
 Image Prompts → Image Generator → Images → File Manager → Final Output
-
-text
 
 Additional components like Content Filter and Prompt Optimizer interact with this flow at various points.
 
@@ -157,9 +174,7 @@ The application includes a testing module (`src/test_app.py`) that can:
 
 To run tests:
 
-python main.py --test
-
-text
+`python main.py --test`
 
 ## Logging
 
@@ -171,9 +186,7 @@ The application uses Python's logging module to log information, warnings, and e
 
 To view logs:
 
-cat logs/story_generator_YYYYMMDD.log
-
-text
+`cat logs/story_generator_YYYYMMDD.log`
 
 ## Performance Optimization
 

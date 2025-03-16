@@ -82,17 +82,16 @@ Examples of good prompts:
 You can customize various aspects of your story using command-line options:
 
 - Change the number of images:
-python main.py --images 6
+`python main.py --images 6`
 
 
 - Adjust the creativity level:
-python main.py --temperature 0.8
+`python main.py --temperature 0.8`
 
 (Higher values = more creative but potentially less coherent)
 
 - Optimize prompts for better quality:
-python main.py --optimize
-
+`python main.py --optimize`
 
 ## Managing Your Stories
 
@@ -101,8 +100,7 @@ python main.py --optimize
 All generated stories are saved in the `output` directory, with each story in its own folder. The folder name includes the story title and a timestamp.
 
 To list all your stories:
-python main.py --list-stories
-
+`python main.py --list-stories`
 
 ### Story Format
 
@@ -126,8 +124,7 @@ To share your stories:
 4. You can share the entire folder, or convert the Markdown to PDF for easier sharing
 
 To convert to PDF (requires Pandoc):
-pandoc output/your_story_folder/story.md -o story.pdf --pdf-engine=xelatex
-
+`pandoc output/your_story_folder/story.md -o story.pdf --pdf-engine=xelatex`
 
 ## Troubleshooting
 
