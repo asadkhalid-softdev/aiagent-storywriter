@@ -1,5 +1,6 @@
-openai
-python-dotenv
-pillow
-requests
-markdown
+openai==1.66.3
+Pillow==11.1.0
+psutil==7.0.0
+python-dotenv==1.0.1
+Requests==2.32.3
+setuptools==65.5.0
