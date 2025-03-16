@@ -14,13 +14,13 @@ VERSION = "1.0.0"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Story Generation Settings
-STORY_MODEL = "gpt-4o-mini"  # Model to use for story generation
+STORY_MODEL = "gpt-4o"  # Model to use for story generation
 STORY_MAX_TOKENS = 2000  # Maximum tokens for story generation
 STORY_TEMPERATURE = 0.7  # Creativity level (0.0-1.0)
 
 # Image Generation Settings
-IMAGE_MODEL = "dall-e-2"  # Model to use for image generation
-IMAGE_SIZE = "512x512"  # Size of generated images
+IMAGE_MODEL = "dall-e-3"  # Model to use for image generation
+IMAGE_SIZE = "1024x1024"  # Size of generated images
 IMAGE_QUALITY = "standard"  # Quality of generated images
 IMAGE_STYLE = "natural"  # Style of generated images
 

@@ -17,7 +17,7 @@ class ImagePromptCreator:
         self.model = STORY_MODEL
         self.num_images = IMAGES_PER_STORY
     
-    def extract_scenes(self, story_text):
+    def extract_scenes(self, story_text, num_images=None):
         """
         Extract key scenes from the story for image generation.
         
@@ -27,6 +27,9 @@ class ImagePromptCreator:
         Returns:
             list: List of image prompts for key scenes
         """
+        if num_images is not None:
+            self.num_images = num_images
+            
         # Extract title for context
         title = self._extract_title(story_text)
         

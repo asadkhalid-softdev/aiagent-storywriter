@@ -137,7 +137,7 @@ def generate_story(story_prompt=None, num_images=None, output_dir=None, verbose=
         # Extract scenes for image generation
         monitor.start_operation("Image Prompt Creation")
         start_time = time.time()
-        image_prompts = image_prompt_creator.extract_scenes(story_text)
+        image_prompts = image_prompt_creator.extract_scenes(story_text, num_images)
         extraction_time = time.time() - start_time
         logging.info(f"Extracted {len(image_prompts)} image prompts in {extraction_time:.2f} seconds")
         monitor.end_operation("Image Prompt Creation")
