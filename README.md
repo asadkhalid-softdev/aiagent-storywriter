@@ -138,6 +138,7 @@ python main.py --list-stories
 
 ## Project Structure
 
+```
 story_generator/
 │
 ├── main.py # Main entry point for the application
@@ -165,7 +166,7 @@ story_generator/
 │
 └── output/ # Directory for storing generated stories and images
 └── .gitkeep
-
+```
 
 ## Configuration
 
